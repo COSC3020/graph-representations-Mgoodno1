@@ -19,3 +19,18 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+
+Runtime Analysis:
+The time complexity of the convertToAdjList function is O(V^2).
+
+The runtime is primarily dependent on the number of vertices V, as we examine each pair of vertices in the adjacency matrix. The number of edges E doesn't affect the worst-case time 
+complexity, but it does impact the structure of the resulting adjacency list.
+
+In dense graphs, where the number of edges is close to V^2, the adjacency matrix will be mostly filled with 1s, but this does not change the overall time complexity of the conversion 
+process.
+
+
+Sources:
+This one confused me on how to start it so ChatGPT was used to build a basic example and then was understood and then wrote code from scratch (the code is just influenced by ChatGPT, but I wrote the code). Also used it for understanding vertices and number of edges
+in the analysis.
