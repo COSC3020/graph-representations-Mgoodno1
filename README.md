@@ -32,5 +32,5 @@ process.
 
 
 Sources:
-This one confused me on how to start it so ChatGPT was used to build a basic example and then was understood and applied to my code while testing it. Also used it for understanding vertices and number of edges
+This one confused me on how to start it so ChatGPT was used to build a basic example and then was understood and then wrote code from scratch (the code is just influenced by ChatGPT, but I wrote the code). Also used it for understanding vertices and number of edges
 in the analysis.
